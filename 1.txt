@@ -1,0 +1,5 @@
+1.이미지
+2.사이트 추가
+3.(ctrl+s 저장해서 이미파일 index파일 다운)
+주소:http://www.bccseoul.com/
+index 바깥에

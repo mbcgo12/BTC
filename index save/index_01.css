@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 
+RESET CSS
+ */
+
+/* 전체속성 */
+#wrap {
+  margin: 0 auto;
+  width: 1920px;
+}
+body {
+  overflow-x: hidden;
+}
+
+/* 컨텐츠 */
+#header {
+  background: #fff(255, 255, 255);
+  height: 100px;
+}
+#Image_slider_container {
+  background: rgb(148, 174, 184);
+  height: 488px;
+}
+#contents {
+  background: rgb(255, 255, 255);
+  height: 582px;
+  padding: 50px 0 50px 0;
+}
+#section_container {
+  background: rgb(255, 255, 255);
+  height: 89.676px;
+  padding: 49px 0 49px 0;
+}
+#footer {
+  background: rgb(59, 58, 58);
+  height: 115.312px;
+  padding: 30px 0 30px 0;
+}
+
+/* font */
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-family: "Noto Sans KR";
+}
+
+/* header */
+#header .inner {
+  position: relative;
+}
+
+.inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.inner h1 {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  height: 37px;
+}
+
+.gnb {
+  position: absolute;
+  top: 0;
+  right: 179px;
+  height: 100px;
+  text-align: center;
+}
+
+.gnb li a {
+  display: block;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.gnb > li {
+  float: left;
+  position: relative;
+  line-height: 96px;
+  margin-left: 58px;
+}
+
+.login {
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+
+.login a {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  color: #999;
+  line-height: 1;
+  font-weight: 400;
+  margin-left: 28px;
+  text-decoration: none;
+}
+
+.sns_btn {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  top: 45px;
+}
+
+.sns_btn a:nth-child(1) {
+  background: url(../imges/cafe.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.sns_btn a:nth-child(2) {
+  background: url(../imges/face_btn.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.sns_btn a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+/* nav Image */
+
+/* nav Contents */
+#section1 {
+  width: 100%;
+  word-break: keep-all;
+  margin-bottom: 30px;
+}
+
+.clfix {
+  zoom: 1;
+  display: block;
+}
+
+.sec1_list li {
+  float: left;
+  width: 31.667%;
+}
+
+.sec1_list li:nth-child(2) {
+  margin: 0 2.5%;
+}
+/* nav Contents */
+/* #section2 { width: 100%; } 
+element.style1 { height: 356px; } 
+.calendar { padding: 28px 38px 24px; } 
+.sec2_box { float: left; width: 31.667%; border: 1px solid red; } */
+
+.sec2_box {
+  float: left;
+  width: 31.3%;
+  border: 1px solid #ddd;
+}
+.sec2_box.notice {
+  margin: 0 2.5%;
+}
+.clfix:after {
+  content: ".";
+  display: block;
+  height: 0px;
+  clear: both;
+  visibility: hidden;
+}
+
+/* section3 */
+#section3 {
+  width: 100%;
+  padding: 49px 0;
+  overflow: hidden;
+  background: #f7f7f7;
+}
